@@ -6,88 +6,97 @@
     <title>ALI Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css" type="text/css"> -->
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <h3>ALI ALQARAGHULI</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <header class="flex">
-                    <h1 id="peterw">Ali Al Qaraghuli</h1>
-                    <!-- <ul>
-                        <li> <a id="index" href="index.html">About |</a> </li>
-                        <li> <a id="portfolio" href="portfolio.html"> Portfolio |</a> </li>
-                        <li> <a id="contact" href="contact.html"> Contact</a> </li>
-                    </ul> -->
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">About |</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"> Portfolio |</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"> Contact</a>
-                        </li>
-                    </ul>
-                    </nav>
-                </header>
-
-                <nav>
-                    <!-- <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">About |</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"> Portfolio |</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"> Contact</a>
-                        </li>
-                    </ul>
-                </nav> -->
+            <div id="aboutme">
+                <h2>About Me</h2>
             </div>
-        </div>
-
-        <div id="aboutme">
-            <h2 id="aboutme_header">About Me</h2>
             <hr>
-            <aside><img src="assets/images/35921990.jpg" alt="Ali" height="200px" width="200px"></aside>
-            <p id="para1">
-                My name is Ali Al Qaraghuli and I would love to help you with your next web based creation. I am
-                passionate
-                about designing web applications to solve problems. My toolset includes: HTML5, CSS, Javascript, React,
-                Node.JS, and more. If you have a problem that needs solving, need a simple website or even a community
-                to
-                reach all your customers, we can work to get it built and solve your problem. Check out my github repo
-                if
-                you are interested in looking at code. You can also reach out to me if you are interested in working
-                together on something.
-            </p>
-            <p id="para2">
-                Contact me so we can get your problem solved! I gurantee we will make something great. Take a look at my
-                portfolio to see some of my previous work.
-                Again, feel free to <strong><a href="contact.html">contact</a></strong> me if you are interested in
-                working
-                together.
-            </p>
+            <!-- <aside><img src="assets/images/35921990.jpg" alt="Ali" height="200px" width="200px"></aside> -->
+
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="assets/images/35921990.jpg" alt="Ali" height="200px" width="180px"></aside>
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        My name is Ali Al Qaraghuli and I would love to help you with your next web based creation. I am
+                        passionate
+                        about designing web applications to solve problems. My toolset includes: HTML5, CSS, Javascript,
+                        React,
+                        Node.JS, and more. If you have a problem that needs solving, need a simple website or even a
+                        community
+                        to
+                        reach all your customers, we can work to get it built and solve your problem. Check out my
+                        github
+                        repo
+                        if
+                        you are interested in looking at code. You can also reach out to me if you are interested in
+                        working
+                        together on something.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-8">
+
+
+                    <p id="para2">
+                        Contact me so we can get your problem solved! I gurantee we will make something great. Take a
+                        look
+                        at my
+                        portfolio to see some of my previous work.
+                        Again, feel free to <strong><a href="contact.html">contact</a></strong> me if you are interested
+                        in
+                        working
+                        together.
+                    </p>
+                </div>
+            </div>
+
+            <footer>
+                Copyright &copy; 2019 All Right Reserved To ALi ALQARAGHULI &reg;
+            </footer>
         </div>
 
-        <footer>
-            Copyright &copy; 2019 All Right Reserved To ALi ALQARAGHULI &reg;
-        </footer>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
