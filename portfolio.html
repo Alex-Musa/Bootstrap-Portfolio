@@ -1,63 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
 </head>
 
 <body>
-    <header class="masthead">
-        <div class=container>
-            <a href="index.html" id="peterw">ALI</a>
-            <nav>
-                <a id="about" href="index.html"> About </a>
-                <a id="portfolio" href="portfolio.html"> Portfolio </a>
-                <a id="contact" href="contact.html"> Contact </a>
-            </nav>
-        </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <section class="main-container">
-            <div class="myportfolio">
-
-                <h1 id="portfolio_header">Portfolio</h1>
-                <div id="image1">
-                    <img class="image1" src="assets/images/image1.jpg" alt="Image of TV display Streaming Application">
-                    <h4><span> What's Streaming? </span></h4>
-                </div>
-
-                <div id="image2">
-                    <img src="assets/images/image2.jpg" alt="PC Parts for Part Picking Application">
-                    <h4> PC Part Picking </h4>
-                </div>
-
-                <div id="port-row2">
-                    <div id="image3">
-                        <img src="assets/images/image3.jpg" alt="Earbuds for streaming music Application">
-                        <h4> Music Streaming </h4>
-                    </div>
-
-                    <div id="image4">
-                        <img src="assets/images/image4.jpg" alt="City view - Vegas">
-                        <h4> Destination Hotspots </h4>
-                    </div>
-                </div>
-
-                <div id="port-row3"></div>
-                <div id="image5">
-                    <img src="assets/images/image5.jpg" alt="Foilage image for Hiking Application">
-                    <h4> Trail Finder </h4>
-                </div>
-            </div>
-        </section>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">ALI ALQARAGHULI</a>
+      </div>
+      <button type="button" class="navbar-toggler collapsed ml-auto" data-toggle="collapse"
+        data-target="#page-nav-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <footer>
-        Copyright &copy; 2019 All Right Reserved To ALi ALQARAGHULI &reg;
-    </footer>
+  </nav>
+
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">Portfolio</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <aside class="block">
+          <h1 class="block-header connect-header">Connect With Me</h1>
+          <hr />
+          <div id="images">
+            <img src="assets/imgs/github.png" alt="" class="connect-photo">
+            <img src="assets/imgs/linkedin.png" alt="" class="connect-photo">
+            <img src="assets/imgs/stackover2.png" alt="" class="connect-photo">
+          </div>
+        </aside>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018 Your Name
+    </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </script>
 
 </body>
 
